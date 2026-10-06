@@ -26,6 +26,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={unbounded.variable}>
+      <head>
+        <meta
+          name="virtual-protocol-site-verification"
+          content="3184eb7cd41f48eb7084e8a34e7021c6"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
